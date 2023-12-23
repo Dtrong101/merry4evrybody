@@ -335,20 +335,14 @@ h2 {
   h1 {
     font-size: 20px;
   }
+  h2 {
+    font-size: 16px;
+  }
 
   .xmas {
     position: relative;
     left: 0; /* Reset giá trị left để nút nằm bên trái và không áp dụng transform */
     transform: none;
     margin-top: 10px;
-  }
-}
-
-@media only screen and (max-width: 1440px) {
-  .xmas {
-    position: relative;
-    left: 32 0px; /* Reset giá trị left để nút nằm bên trái và không áp dụng transform */
-    transform: none;
-    margin-top: 0px;
   }
 }
